@@ -48,7 +48,7 @@ You can:
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/ocel-gen.git
+git clone https://github.com/sabrinehaddad/ocelgen.git
 cd ocel-gen
 pip install -r requirements.txt
 ```
