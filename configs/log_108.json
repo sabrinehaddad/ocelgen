@@ -1,0 +1,44 @@
+{
+  "xes_log_path": "generated_logs/xes/log_108.xes",
+  "output_ocel_path": "generated_logs/ocel/log_108.jsonocel",
+  "global_seed": 150,
+  "process_tree_params": {
+    "min": 5,
+    "mode": 9,
+    "max": 12,
+    "sequence": 0.8,
+    "choice": 0.1,
+    "parallel": 0.05,
+    "loop": 0.05,
+    "silent": 0.02,
+    "lt_dependency": 0.0,
+    "duplicate": 0.0,
+    "or": 0.06,
+    "num_traces": 75
+  },
+  "ocel_generation_parameters": {
+    "object_types_min": 1,
+    "object_types_mode": 2,
+    "object_types_max": 4,
+    "object_type_prefixes": [
+      "Type0",
+      "Type1",
+      "Type2",
+      "Type3"
+    ],
+    "object_types_per_event_min": 1,
+    "object_types_per_event_mode": 2,
+    "object_types_per_event_max": 4,
+    "objects_per_type_per_event_min": 1,
+    "objects_per_type_per_event_mode": 2,
+    "objects_per_type_per_event_max": 3,
+    "reuse_object_probability": 0.7,
+    "case_object_type": "ProcessCase",
+    "event_attributes_min": 1,
+    "event_attributes_mode": 2,
+    "event_attributes_max": 3,
+    "object_attributes_min": 1,
+    "object_attributes_mode": 2,
+    "object_attributes_max": 3
+  }
+}

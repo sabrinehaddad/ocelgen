@@ -1,0 +1,6699 @@
+{
+  "ocel:global-log": {
+    "ocel:version": "1.0",
+    "ocel:ordering": "timestamp",
+    "ocel:attribute-names": [
+      "activity",
+      "event_attr1",
+      "event_attr2",
+      "timestamp"
+    ],
+    "ocel:global-attribute-names": [
+      "object_attr1",
+      "object_attr2"
+    ],
+    "ocel:object-types": [
+      "ProcessCase",
+      "ot1",
+      "ot2",
+      "ot3"
+    ]
+  },
+  "ocel:global-event": {},
+  "ocel:global-object": {},
+  "ocel:events": {
+    "e1": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583064",
+      "ocel:omap": [
+        "0",
+        "ot1_0001"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val822"
+      }
+    },
+    "e2": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583068",
+      "ocel:omap": [
+        "0",
+        "ot2_0001"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val337",
+        "event_attr2": "event_val553"
+      }
+    },
+    "e3": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583068",
+      "ocel:omap": [
+        "0",
+        "ot2_0002"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val865"
+      }
+    },
+    "e4": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583069",
+      "ocel:omap": [
+        "0",
+        "ot2_0003"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val228",
+        "event_attr2": "event_val266"
+      }
+    },
+    "e5": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583070",
+      "ocel:omap": [
+        "1",
+        "ot1_0002",
+        "ot1_0003"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val220"
+      }
+    },
+    "e6": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583070",
+      "ocel:omap": [
+        "2",
+        "ot2_0004"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val206"
+      }
+    },
+    "e7": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583071",
+      "ocel:omap": [
+        "2",
+        "ot3_0001",
+        "ot3_0002"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val291",
+        "event_attr2": "event_val989"
+      }
+    },
+    "e8": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583071",
+      "ocel:omap": [
+        "2",
+        "ot3_0003"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val902"
+      }
+    },
+    "e9": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583071",
+      "ocel:omap": [
+        "2",
+        "ot3_0004",
+        "ot3_0005"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val113",
+        "event_attr2": "event_val829"
+      }
+    },
+    "e10": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583072",
+      "ocel:omap": [
+        "3",
+        "ot2_0005"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val361",
+        "event_attr2": "event_val342"
+      }
+    },
+    "e11": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583073",
+      "ocel:omap": [
+        "3",
+        "ot2_0006",
+        "ot2_0005"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val298",
+        "event_attr2": "event_val105"
+      }
+    },
+    "e12": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583073",
+      "ocel:omap": [
+        "4",
+        "ot1_0004",
+        "ot1_0005"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val457",
+        "event_attr2": "event_val242"
+      }
+    },
+    "e13": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583074",
+      "ocel:omap": [
+        "5",
+        "ot2_0007",
+        "ot2_0008"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val908",
+        "event_attr2": "event_val232"
+      }
+    },
+    "e14": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583074",
+      "ocel:omap": [
+        "5",
+        "ot1_0006"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val839",
+        "event_attr2": "event_val252"
+      }
+    },
+    "e15": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583075",
+      "ocel:omap": [
+        "5",
+        "ot2_0009",
+        "ot2_0010"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val799"
+      }
+    },
+    "e16": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583075",
+      "ocel:omap": [
+        "5",
+        "ot1_0007"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val453"
+      }
+    },
+    "e17": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583076",
+      "ocel:omap": [
+        "6",
+        "ot3_0006"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val206",
+        "event_attr2": "event_val862"
+      }
+    },
+    "e18": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583076",
+      "ocel:omap": [
+        "6",
+        "ot1_0008"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val683",
+        "event_attr2": "event_val302"
+      }
+    },
+    "e19": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583077",
+      "ocel:omap": [
+        "6",
+        "ot1_0009"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val712",
+        "event_attr2": "event_val292"
+      }
+    },
+    "e20": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583077",
+      "ocel:omap": [
+        "6",
+        "ot1_0010"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val439"
+      }
+    },
+    "e21": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583078",
+      "ocel:omap": [
+        "7",
+        "ot1_0011",
+        "ot1_0012"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val408"
+      }
+    },
+    "e22": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583078",
+      "ocel:omap": [
+        "7",
+        "ot1_0013",
+        "ot1_0012"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val746"
+      }
+    },
+    "e23": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583079",
+      "ocel:omap": [
+        "7",
+        "ot2_0011"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val999"
+      }
+    },
+    "e24": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583079",
+      "ocel:omap": [
+        "7",
+        "ot3_0007"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val463"
+      }
+    },
+    "e25": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583080",
+      "ocel:omap": [
+        "8",
+        "ot2_0012",
+        "ot2_0013"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val890",
+        "event_attr2": "event_val138"
+      }
+    },
+    "e26": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583080",
+      "ocel:omap": [
+        "8",
+        "ot3_0008",
+        "ot3_0009"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val533"
+      }
+    },
+    "e27": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583081",
+      "ocel:omap": [
+        "8",
+        "ot2_0014",
+        "ot2_0015"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val910",
+        "event_attr2": "event_val906"
+      }
+    },
+    "e28": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583081",
+      "ocel:omap": [
+        "8",
+        "ot3_0010",
+        "ot3_0011"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val122"
+      }
+    },
+    "e29": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583082",
+      "ocel:omap": [
+        "9",
+        "ot3_0012"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val965"
+      }
+    },
+    "e30": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583082",
+      "ocel:omap": [
+        "9",
+        "ot1_0014"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val737",
+        "event_attr2": "event_val716"
+      }
+    },
+    "e31": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583083",
+      "ocel:omap": [
+        "9",
+        "ot2_0016",
+        "ot2_0017"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val190"
+      }
+    },
+    "e32": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583083",
+      "ocel:omap": [
+        "9",
+        "ot1_0015",
+        "ot1_0016"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val237"
+      }
+    },
+    "e33": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583084",
+      "ocel:omap": [
+        "10",
+        "ot1_0017"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val777",
+        "event_attr2": "event_val693"
+      }
+    },
+    "e34": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583084",
+      "ocel:omap": [
+        "10",
+        "ot3_0013",
+        "ot3_0014"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val990"
+      }
+    },
+    "e35": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583085",
+      "ocel:omap": [
+        "10",
+        "ot1_0018",
+        "ot1_0019"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val36",
+        "event_attr2": "event_val364"
+      }
+    },
+    "e36": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583085",
+      "ocel:omap": [
+        "10",
+        "ot2_0018",
+        "ot2_0019"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val650",
+        "event_attr2": "event_val330"
+      }
+    },
+    "e37": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583086",
+      "ocel:omap": [
+        "11",
+        "ot3_0015"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val536",
+        "event_attr2": "event_val635"
+      }
+    },
+    "e38": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583086",
+      "ocel:omap": [
+        "12",
+        "ot3_0016",
+        "ot3_0017"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val935"
+      }
+    },
+    "e39": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583087",
+      "ocel:omap": [
+        "12",
+        "ot1_0020"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val804",
+        "event_attr2": "event_val567"
+      }
+    },
+    "e40": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583087",
+      "ocel:omap": [
+        "12",
+        "ot1_0021"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val681"
+      }
+    },
+    "e41": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583088",
+      "ocel:omap": [
+        "12",
+        "ot2_0020"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val691",
+        "event_attr2": "event_val361"
+      }
+    },
+    "e42": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583088",
+      "ocel:omap": [
+        "13",
+        "ot2_0021",
+        "ot2_0022"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val445"
+      }
+    },
+    "e43": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583089",
+      "ocel:omap": [
+        "14",
+        "ot2_0023",
+        "ot2_0024"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val123"
+      }
+    },
+    "e44": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583089",
+      "ocel:omap": [
+        "14",
+        "ot2_0025"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val726",
+        "event_attr2": "event_val475"
+      }
+    },
+    "e45": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583090",
+      "ocel:omap": [
+        "14",
+        "ot1_0022",
+        "ot1_0023"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val379",
+        "event_attr2": "event_val271"
+      }
+    },
+    "e46": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583090",
+      "ocel:omap": [
+        "14",
+        "ot3_0018",
+        "ot3_0019"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val786"
+      }
+    },
+    "e47": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583091",
+      "ocel:omap": [
+        "15",
+        "ot3_0020"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val28",
+        "event_attr2": "event_val439"
+      }
+    },
+    "e48": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583091",
+      "ocel:omap": [
+        "15",
+        "ot1_0024"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val775"
+      }
+    },
+    "e49": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583092",
+      "ocel:omap": [
+        "16",
+        "ot1_0025",
+        "ot1_0026"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val87"
+      }
+    },
+    "e50": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583092",
+      "ocel:omap": [
+        "16",
+        "ot1_0027",
+        "ot1_0028"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val528"
+      }
+    },
+    "e51": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583093",
+      "ocel:omap": [
+        "17",
+        "ot2_0026",
+        "ot2_0027"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val407",
+        "event_attr2": "event_val614"
+      }
+    },
+    "e52": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583093",
+      "ocel:omap": [
+        "17",
+        "ot1_0029"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val498"
+      }
+    },
+    "e53": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583094",
+      "ocel:omap": [
+        "18",
+        "ot2_0028"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val872",
+        "event_attr2": "event_val276"
+      }
+    },
+    "e54": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583095",
+      "ocel:omap": [
+        "18",
+        "ot1_0030"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val965"
+      }
+    },
+    "e55": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583095",
+      "ocel:omap": [
+        "19",
+        "ot1_0031",
+        "ot1_0032"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val519",
+        "event_attr2": "event_val247"
+      }
+    },
+    "e56": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583096",
+      "ocel:omap": [
+        "19",
+        "ot3_0021",
+        "ot3_0022"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val437",
+        "event_attr2": "event_val398"
+      }
+    },
+    "e57": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583096",
+      "ocel:omap": [
+        "19",
+        "ot3_0023",
+        "ot3_0024"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val488",
+        "event_attr2": "event_val6"
+      }
+    },
+    "e58": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583097",
+      "ocel:omap": [
+        "19",
+        "ot1_0033",
+        "ot1_0034"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val803"
+      }
+    },
+    "e59": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583097",
+      "ocel:omap": [
+        "20",
+        "ot1_0035"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val25"
+      }
+    },
+    "e60": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583098",
+      "ocel:omap": [
+        "20",
+        "ot3_0025",
+        "ot3_0026"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val818",
+        "event_attr2": "event_val803"
+      }
+    },
+    "e61": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583098",
+      "ocel:omap": [
+        "20",
+        "ot3_0027",
+        "ot3_0028"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val415",
+        "event_attr2": "event_val599"
+      }
+    },
+    "e62": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583098",
+      "ocel:omap": [
+        "20",
+        "ot3_0029"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val766"
+      }
+    },
+    "e63": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583099",
+      "ocel:omap": [
+        "21",
+        "ot3_0030",
+        "ot3_0031"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val647"
+      }
+    },
+    "e64": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583100",
+      "ocel:omap": [
+        "21",
+        "ot3_0032",
+        "ot3_0033"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val808",
+        "event_attr2": "event_val84"
+      }
+    },
+    "e65": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583100",
+      "ocel:omap": [
+        "22",
+        "ot1_0036",
+        "ot1_0037"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val947"
+      }
+    },
+    "e66": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583101",
+      "ocel:omap": [
+        "22",
+        "ot3_0034",
+        "ot3_0035"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val298"
+      }
+    },
+    "e67": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583101",
+      "ocel:omap": [
+        "23",
+        "ot1_0038"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val260",
+        "event_attr2": "event_val126"
+      }
+    },
+    "e68": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583102",
+      "ocel:omap": [
+        "23",
+        "ot3_0036",
+        "ot3_0037"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val100"
+      }
+    },
+    "e69": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583102",
+      "ocel:omap": [
+        "24",
+        "ot3_0038",
+        "ot3_0039"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val211"
+      }
+    },
+    "e70": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583103",
+      "ocel:omap": [
+        "25",
+        "ot3_0040",
+        "ot3_0041"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val307",
+        "event_attr2": "event_val475"
+      }
+    },
+    "e71": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583104",
+      "ocel:omap": [
+        "25",
+        "ot2_0029",
+        "ot2_0030"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val122"
+      }
+    },
+    "e72": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583104",
+      "ocel:omap": [
+        "25",
+        "ot3_0040",
+        "ot3_0042"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val587",
+        "event_attr2": "event_val103"
+      }
+    },
+    "e73": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583104",
+      "ocel:omap": [
+        "25",
+        "ot2_0031"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val672",
+        "event_attr2": "event_val737"
+      }
+    },
+    "e74": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583105",
+      "ocel:omap": [
+        "26",
+        "ot3_0043",
+        "ot3_0044"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val116",
+        "event_attr2": "event_val969"
+      }
+    },
+    "e75": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583106",
+      "ocel:omap": [
+        "27",
+        "ot2_0032",
+        "ot2_0033"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val376"
+      }
+    },
+    "e76": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583106",
+      "ocel:omap": [
+        "27",
+        "ot2_0034"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val87"
+      }
+    },
+    "e77": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583107",
+      "ocel:omap": [
+        "27",
+        "ot1_0039",
+        "ot1_0040"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val323",
+        "event_attr2": "event_val506"
+      }
+    },
+    "e78": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583107",
+      "ocel:omap": [
+        "27",
+        "ot1_0041",
+        "ot1_0042"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val896",
+        "event_attr2": "event_val40"
+      }
+    },
+    "e79": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583108",
+      "ocel:omap": [
+        "28",
+        "ot3_0045"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val18",
+        "event_attr2": "event_val347"
+      }
+    },
+    "e80": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583108",
+      "ocel:omap": [
+        "28",
+        "ot2_0035"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val684",
+        "event_attr2": "event_val981"
+      }
+    },
+    "e81": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583108",
+      "ocel:omap": [
+        "28",
+        "ot2_0036",
+        "ot2_0037"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val53"
+      }
+    },
+    "e82": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583109",
+      "ocel:omap": [
+        "28",
+        "ot1_0043",
+        "ot1_0044"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val85",
+        "event_attr2": "event_val44"
+      }
+    },
+    "e83": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583110",
+      "ocel:omap": [
+        "29",
+        "ot2_0038",
+        "ot2_0039"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val272"
+      }
+    },
+    "e84": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583110",
+      "ocel:omap": [
+        "30",
+        "ot2_0040"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val673",
+        "event_attr2": "event_val522"
+      }
+    },
+    "e85": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583111",
+      "ocel:omap": [
+        "30",
+        "ot1_0045"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val437",
+        "event_attr2": "event_val518"
+      }
+    },
+    "e86": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583111",
+      "ocel:omap": [
+        "31",
+        "ot3_0046"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val485",
+        "event_attr2": "event_val277"
+      }
+    },
+    "e87": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583112",
+      "ocel:omap": [
+        "31",
+        "ot2_0041"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val967",
+        "event_attr2": "event_val600"
+      }
+    },
+    "e88": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583112",
+      "ocel:omap": [
+        "31",
+        "ot1_0046"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val400",
+        "event_attr2": "event_val822"
+      }
+    },
+    "e89": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583113",
+      "ocel:omap": [
+        "31",
+        "ot2_0042"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val40"
+      }
+    },
+    "e90": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583113",
+      "ocel:omap": [
+        "32",
+        "ot2_0043",
+        "ot2_0044"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val100",
+        "event_attr2": "event_val711"
+      }
+    },
+    "e91": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583114",
+      "ocel:omap": [
+        "32",
+        "ot3_0047"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val869"
+      }
+    },
+    "e92": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583114",
+      "ocel:omap": [
+        "33",
+        "ot3_0048"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val878"
+      }
+    },
+    "e93": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583115",
+      "ocel:omap": [
+        "33",
+        "ot3_0049"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val543",
+        "event_attr2": "event_val861"
+      }
+    },
+    "e94": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583115",
+      "ocel:omap": [
+        "34",
+        "ot3_0050"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val39",
+        "event_attr2": "event_val232"
+      }
+    },
+    "e95": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583116",
+      "ocel:omap": [
+        "35",
+        "ot1_0047"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val481"
+      }
+    },
+    "e96": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583116",
+      "ocel:omap": [
+        "35",
+        "ot3_0051"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val778"
+      }
+    },
+    "e97": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583117",
+      "ocel:omap": [
+        "35",
+        "ot1_0048",
+        "ot1_0049"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val908",
+        "event_attr2": "event_val217"
+      }
+    },
+    "e98": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583117",
+      "ocel:omap": [
+        "35",
+        "ot2_0045"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val360"
+      }
+    },
+    "e99": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583118",
+      "ocel:omap": [
+        "36",
+        "ot3_0052",
+        "ot3_0053"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val36",
+        "event_attr2": "event_val395"
+      }
+    },
+    "e100": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583118",
+      "ocel:omap": [
+        "37",
+        "ot3_0054",
+        "ot3_0055"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val931",
+        "event_attr2": "event_val73"
+      }
+    },
+    "e101": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583119",
+      "ocel:omap": [
+        "38",
+        "ot2_0046"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val150"
+      }
+    },
+    "e102": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583120",
+      "ocel:omap": [
+        "38",
+        "ot2_0047",
+        "ot2_0048"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val130"
+      }
+    },
+    "e103": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583120",
+      "ocel:omap": [
+        "38",
+        "ot2_0049"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val681",
+        "event_attr2": "event_val342"
+      }
+    },
+    "e104": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583120",
+      "ocel:omap": [
+        "38",
+        "ot1_0050",
+        "ot1_0051"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val332"
+      }
+    },
+    "e105": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583121",
+      "ocel:omap": [
+        "39",
+        "ot1_0052"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val17",
+        "event_attr2": "event_val228"
+      }
+    },
+    "e106": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583122",
+      "ocel:omap": [
+        "39",
+        "ot3_0056"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val2",
+        "event_attr2": "event_val856"
+      }
+    },
+    "e107": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583122",
+      "ocel:omap": [
+        "40",
+        "ot3_0057"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val153"
+      }
+    },
+    "e108": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583123",
+      "ocel:omap": [
+        "40",
+        "ot1_0053"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val645"
+      }
+    },
+    "e109": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583123",
+      "ocel:omap": [
+        "40",
+        "ot1_0054"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val877"
+      }
+    },
+    "e110": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583123",
+      "ocel:omap": [
+        "40",
+        "ot2_0050",
+        "ot2_0051"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val543"
+      }
+    },
+    "e111": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583124",
+      "ocel:omap": [
+        "41",
+        "ot3_0058",
+        "ot3_0059"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val160",
+        "event_attr2": "event_val207"
+      }
+    },
+    "e112": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583124",
+      "ocel:omap": [
+        "41",
+        "ot3_0060",
+        "ot3_0061"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val918"
+      }
+    },
+    "e113": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583125",
+      "ocel:omap": [
+        "41",
+        "ot1_0055",
+        "ot1_0056"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val117"
+      }
+    },
+    "e114": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583125",
+      "ocel:omap": [
+        "41",
+        "ot1_0057",
+        "ot1_0058"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val202"
+      }
+    },
+    "e115": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583126",
+      "ocel:omap": [
+        "42",
+        "ot1_0059",
+        "ot1_0060"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val4"
+      }
+    },
+    "e116": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583126",
+      "ocel:omap": [
+        "42",
+        "ot3_0062"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val828",
+        "event_attr2": "event_val720"
+      }
+    },
+    "e117": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583127",
+      "ocel:omap": [
+        "42",
+        "ot3_0063"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val723",
+        "event_attr2": "event_val719"
+      }
+    },
+    "e118": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583127",
+      "ocel:omap": [
+        "42",
+        "ot2_0052",
+        "ot2_0053"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val750",
+        "event_attr2": "event_val394"
+      }
+    },
+    "e119": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583128",
+      "ocel:omap": [
+        "43",
+        "ot2_0054",
+        "ot2_0055"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val165"
+      }
+    },
+    "e120": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583128",
+      "ocel:omap": [
+        "43",
+        "ot3_0064",
+        "ot3_0065"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val397",
+        "event_attr2": "event_val686"
+      }
+    },
+    "e121": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583129",
+      "ocel:omap": [
+        "43",
+        "ot1_0061"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val652"
+      }
+    },
+    "e122": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583129",
+      "ocel:omap": [
+        "43",
+        "ot2_0056",
+        "ot2_0057"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val38"
+      }
+    },
+    "e123": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583130",
+      "ocel:omap": [
+        "44",
+        "ot3_0066"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val618"
+      }
+    },
+    "e124": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583130",
+      "ocel:omap": [
+        "45",
+        "ot2_0058"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val23",
+        "event_attr2": "event_val649"
+      }
+    },
+    "e125": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583131",
+      "ocel:omap": [
+        "45",
+        "ot2_0059",
+        "ot2_0058"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val999"
+      }
+    },
+    "e126": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583131",
+      "ocel:omap": [
+        "45",
+        "ot3_0067",
+        "ot3_0068"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val949",
+        "event_attr2": "event_val896"
+      }
+    },
+    "e127": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583132",
+      "ocel:omap": [
+        "45",
+        "ot1_0062",
+        "ot1_0063"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val105"
+      }
+    },
+    "e128": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583132",
+      "ocel:omap": [
+        "46",
+        "ot3_0069"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val891"
+      }
+    },
+    "e129": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583133",
+      "ocel:omap": [
+        "47",
+        "ot3_0070",
+        "ot3_0071"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val325"
+      }
+    },
+    "e130": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583133",
+      "ocel:omap": [
+        "47",
+        "ot2_0060"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val535",
+        "event_attr2": "event_val497"
+      }
+    },
+    "e131": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583134",
+      "ocel:omap": [
+        "48",
+        "ot3_0072"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val694"
+      }
+    },
+    "e132": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583134",
+      "ocel:omap": [
+        "48",
+        "ot3_0073",
+        "ot3_0074"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val869"
+      }
+    },
+    "e133": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583135",
+      "ocel:omap": [
+        "49",
+        "ot3_0075"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val221"
+      }
+    },
+    "e134": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583135",
+      "ocel:omap": [
+        "49",
+        "ot1_0064"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val959",
+        "event_attr2": "event_val295"
+      }
+    },
+    "e135": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583136",
+      "ocel:omap": [
+        "49",
+        "ot1_0064"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val823",
+        "event_attr2": "event_val590"
+      }
+    },
+    "e136": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583136",
+      "ocel:omap": [
+        "49",
+        "ot1_0065",
+        "ot1_0066"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val267",
+        "event_attr2": "event_val901"
+      }
+    },
+    "e137": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583137",
+      "ocel:omap": [
+        "50",
+        "ot3_0076"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val703"
+      }
+    },
+    "e138": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583137",
+      "ocel:omap": [
+        "51",
+        "ot3_0077"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val992",
+        "event_attr2": "event_val856"
+      }
+    },
+    "e139": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583138",
+      "ocel:omap": [
+        "51",
+        "ot1_0067"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val8",
+        "event_attr2": "event_val985"
+      }
+    },
+    "e140": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583138",
+      "ocel:omap": [
+        "51",
+        "ot1_0068",
+        "ot1_0069"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val389"
+      }
+    },
+    "e141": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583139",
+      "ocel:omap": [
+        "51",
+        "ot1_0070"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val239"
+      }
+    },
+    "e142": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583139",
+      "ocel:omap": [
+        "52",
+        "ot2_0061",
+        "ot2_0062"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val886"
+      }
+    },
+    "e143": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583140",
+      "ocel:omap": [
+        "52",
+        "ot2_0063"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val310"
+      }
+    },
+    "e144": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583140",
+      "ocel:omap": [
+        "52",
+        "ot3_0078"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val231"
+      }
+    },
+    "e145": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583141",
+      "ocel:omap": [
+        "52",
+        "ot2_0064",
+        "ot2_0065"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val957"
+      }
+    },
+    "e146": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583141",
+      "ocel:omap": [
+        "53",
+        "ot3_0079"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val141"
+      }
+    },
+    "e147": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583142",
+      "ocel:omap": [
+        "54",
+        "ot3_0080"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val56",
+        "event_attr2": "event_val257"
+      }
+    },
+    "e148": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583142",
+      "ocel:omap": [
+        "54",
+        "ot2_0066"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val702",
+        "event_attr2": "event_val106"
+      }
+    },
+    "e149": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583143",
+      "ocel:omap": [
+        "54",
+        "ot2_0067",
+        "ot2_0068"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val728",
+        "event_attr2": "event_val82"
+      }
+    },
+    "e150": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583143",
+      "ocel:omap": [
+        "54",
+        "ot3_0081",
+        "ot3_0082"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val488",
+        "event_attr2": "event_val705"
+      }
+    },
+    "e151": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583144",
+      "ocel:omap": [
+        "55",
+        "ot2_0069"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val216"
+      }
+    },
+    "e152": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583144",
+      "ocel:omap": [
+        "55",
+        "ot2_0070",
+        "ot2_0071"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val646"
+      }
+    },
+    "e153": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583144",
+      "ocel:omap": [
+        "55",
+        "ot3_0083"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val547"
+      }
+    },
+    "e154": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583145",
+      "ocel:omap": [
+        "55",
+        "ot3_0083"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val575"
+      }
+    },
+    "e155": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583146",
+      "ocel:omap": [
+        "56",
+        "ot2_0072",
+        "ot2_0073"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val131",
+        "event_attr2": "event_val624"
+      }
+    },
+    "e156": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583146",
+      "ocel:omap": [
+        "57",
+        "ot2_0074"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val327",
+        "event_attr2": "event_val333"
+      }
+    },
+    "e157": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583147",
+      "ocel:omap": [
+        "57",
+        "ot2_0075",
+        "ot2_0076"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val335",
+        "event_attr2": "event_val694"
+      }
+    },
+    "e158": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583147",
+      "ocel:omap": [
+        "57",
+        "ot2_0074"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val699",
+        "event_attr2": "event_val157"
+      }
+    },
+    "e159": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583147",
+      "ocel:omap": [
+        "57",
+        "ot3_0084"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val27"
+      }
+    },
+    "e160": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583148",
+      "ocel:omap": [
+        "58",
+        "ot2_0077"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val732"
+      }
+    },
+    "e161": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583148",
+      "ocel:omap": [
+        "58",
+        "ot1_0071"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val530"
+      }
+    },
+    "e162": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583149",
+      "ocel:omap": [
+        "58",
+        "ot3_0085",
+        "ot3_0086"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val531"
+      }
+    },
+    "e163": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583149",
+      "ocel:omap": [
+        "58",
+        "ot2_0078"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val675",
+        "event_attr2": "event_val632"
+      }
+    },
+    "e164": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583150",
+      "ocel:omap": [
+        "59",
+        "ot1_0072"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val263",
+        "event_attr2": "event_val616"
+      }
+    },
+    "e165": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583150",
+      "ocel:omap": [
+        "59",
+        "ot3_0087"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val415",
+        "event_attr2": "event_val202"
+      }
+    },
+    "e166": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583151",
+      "ocel:omap": [
+        "59",
+        "ot3_0088",
+        "ot3_0089"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val12"
+      }
+    },
+    "e167": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583151",
+      "ocel:omap": [
+        "59",
+        "ot2_0079",
+        "ot2_0080"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val150"
+      }
+    },
+    "e168": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583152",
+      "ocel:omap": [
+        "60",
+        "ot2_0081",
+        "ot2_0082"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val415"
+      }
+    },
+    "e169": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583152",
+      "ocel:omap": [
+        "60",
+        "ot2_0083",
+        "ot2_0084"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val979"
+      }
+    },
+    "e170": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583153",
+      "ocel:omap": [
+        "60",
+        "ot3_0090",
+        "ot3_0091"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val50",
+        "event_attr2": "event_val459"
+      }
+    },
+    "e171": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583153",
+      "ocel:omap": [
+        "60",
+        "ot1_0073",
+        "ot1_0074"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val602",
+        "event_attr2": "event_val206"
+      }
+    },
+    "e172": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583154",
+      "ocel:omap": [
+        "61",
+        "ot3_0092"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val72"
+      }
+    },
+    "e173": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583154",
+      "ocel:omap": [
+        "61",
+        "ot3_0093",
+        "ot3_0094"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val868",
+        "event_attr2": "event_val635"
+      }
+    },
+    "e174": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583155",
+      "ocel:omap": [
+        "61",
+        "ot2_0085",
+        "ot2_0086"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val965"
+      }
+    },
+    "e175": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583155",
+      "ocel:omap": [
+        "61",
+        "ot1_0075",
+        "ot1_0076"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val634"
+      }
+    },
+    "e176": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583156",
+      "ocel:omap": [
+        "62",
+        "ot1_0077"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val503"
+      }
+    },
+    "e177": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583156",
+      "ocel:omap": [
+        "62",
+        "ot2_0087"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val956"
+      }
+    },
+    "e178": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583156",
+      "ocel:omap": [
+        "62",
+        "ot3_0095",
+        "ot3_0096"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val60",
+        "event_attr2": "event_val673"
+      }
+    },
+    "e179": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583157",
+      "ocel:omap": [
+        "62",
+        "ot1_0078"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val617"
+      }
+    },
+    "e180": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583158",
+      "ocel:omap": [
+        "63",
+        "ot2_0088"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val261",
+        "event_attr2": "event_val475"
+      }
+    },
+    "e181": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583158",
+      "ocel:omap": [
+        "63",
+        "ot3_0097",
+        "ot3_0098"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val388",
+        "event_attr2": "event_val457"
+      }
+    },
+    "e182": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583159",
+      "ocel:omap": [
+        "64",
+        "ot3_0099",
+        "ot3_0100"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val843"
+      }
+    },
+    "e183": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583159",
+      "ocel:omap": [
+        "65",
+        "ot3_0101"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val25"
+      }
+    },
+    "e184": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583160",
+      "ocel:omap": [
+        "65",
+        "ot2_0089"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val818",
+        "event_attr2": "event_val644"
+      }
+    },
+    "e185": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583160",
+      "ocel:omap": [
+        "65",
+        "ot1_0079",
+        "ot1_0080"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val808"
+      }
+    },
+    "e186": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583161",
+      "ocel:omap": [
+        "65",
+        "ot1_0081",
+        "ot1_0080"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val451",
+        "event_attr2": "event_val886"
+      }
+    },
+    "e187": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583161",
+      "ocel:omap": [
+        "66",
+        "ot3_0102",
+        "ot3_0103"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val667",
+        "event_attr2": "event_val857"
+      }
+    },
+    "e188": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583162",
+      "ocel:omap": [
+        "66",
+        "ot1_0082",
+        "ot1_0083"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val195",
+        "event_attr2": "event_val419"
+      }
+    },
+    "e189": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583162",
+      "ocel:omap": [
+        "66",
+        "ot1_0084",
+        "ot1_0085"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val178"
+      }
+    },
+    "e190": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583162",
+      "ocel:omap": [
+        "66",
+        "ot1_0086"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val965",
+        "event_attr2": "event_val122"
+      }
+    },
+    "e191": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583163",
+      "ocel:omap": [
+        "67",
+        "ot2_0090",
+        "ot2_0091"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val619",
+        "event_attr2": "event_val921"
+      }
+    },
+    "e192": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583164",
+      "ocel:omap": [
+        "68",
+        "ot2_0092"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val75"
+      }
+    },
+    "e193": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583164",
+      "ocel:omap": [
+        "69",
+        "ot2_0093",
+        "ot2_0094"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val565",
+        "event_attr2": "event_val38"
+      }
+    },
+    "e194": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583165",
+      "ocel:omap": [
+        "69",
+        "ot1_0087",
+        "ot1_0088"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val641",
+        "event_attr2": "event_val996"
+      }
+    },
+    "e195": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583165",
+      "ocel:omap": [
+        "69",
+        "ot3_0104"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val904"
+      }
+    },
+    "e196": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583166",
+      "ocel:omap": [
+        "69",
+        "ot3_0104",
+        "ot3_0105"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val800",
+        "event_attr2": "event_val938"
+      }
+    },
+    "e197": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583166",
+      "ocel:omap": [
+        "70",
+        "ot1_0089"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val876",
+        "event_attr2": "event_val270"
+      }
+    },
+    "e198": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583167",
+      "ocel:omap": [
+        "70",
+        "ot1_0090",
+        "ot1_0091"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val884",
+        "event_attr2": "event_val753"
+      }
+    },
+    "e199": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583167",
+      "ocel:omap": [
+        "70",
+        "ot2_0095",
+        "ot2_0096"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val141"
+      }
+    },
+    "e200": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583167",
+      "ocel:omap": [
+        "70",
+        "ot1_0092"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val18"
+      }
+    },
+    "e201": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583168",
+      "ocel:omap": [
+        "71",
+        "ot3_0106"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val911"
+      }
+    },
+    "e202": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583169",
+      "ocel:omap": [
+        "71",
+        "ot1_0093"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val316",
+        "event_attr2": "event_val480"
+      }
+    },
+    "e203": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583169",
+      "ocel:omap": [
+        "71",
+        "ot1_0094",
+        "ot1_0095"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val591"
+      }
+    },
+    "e204": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583169",
+      "ocel:omap": [
+        "71",
+        "ot2_0097"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val758",
+        "event_attr2": "event_val123"
+      }
+    },
+    "e205": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583170",
+      "ocel:omap": [
+        "72",
+        "ot1_0096",
+        "ot1_0097"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val511",
+        "event_attr2": "event_val741"
+      }
+    },
+    "e206": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583170",
+      "ocel:omap": [
+        "72",
+        "ot1_0098"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val662",
+        "event_attr2": "event_val271"
+      }
+    },
+    "e207": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583171",
+      "ocel:omap": [
+        "72",
+        "ot2_0098"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val575"
+      }
+    },
+    "e208": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583171",
+      "ocel:omap": [
+        "72",
+        "ot1_0099"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val416"
+      }
+    },
+    "e209": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583172",
+      "ocel:omap": [
+        "73",
+        "ot3_0107",
+        "ot3_0108"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val313"
+      }
+    },
+    "e210": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583173",
+      "ocel:omap": [
+        "74",
+        "ot2_0099"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val885",
+        "event_attr2": "event_val857"
+      }
+    },
+    "e211": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583173",
+      "ocel:omap": [
+        "74",
+        "ot2_0099"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val381"
+      }
+    },
+    "e212": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583174",
+      "ocel:omap": [
+        "75",
+        "ot1_0100",
+        "ot1_0101"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val237",
+        "event_attr2": "event_val206"
+      }
+    },
+    "e213": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583174",
+      "ocel:omap": [
+        "75",
+        "ot3_0109"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val47"
+      }
+    },
+    "e214": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583175",
+      "ocel:omap": [
+        "76",
+        "ot2_0100"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val83",
+        "event_attr2": "event_val494"
+      }
+    },
+    "e215": {
+      "ocel:activity": "d",
+      "ocel:timestamp": "2025-06-17T18:52:00.583175",
+      "ocel:omap": [
+        "76",
+        "ot3_0110",
+        "ot3_0111"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val136",
+        "event_attr2": "event_val536"
+      }
+    },
+    "e216": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583176",
+      "ocel:omap": [
+        "77",
+        "ot3_0112",
+        "ot3_0113"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val831",
+        "event_attr2": "event_val331"
+      }
+    },
+    "e217": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583176",
+      "ocel:omap": [
+        "77",
+        "ot2_0101"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val842",
+        "event_attr2": "event_val597"
+      }
+    },
+    "e218": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583177",
+      "ocel:omap": [
+        "77",
+        "ot1_0102"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val511",
+        "event_attr2": "event_val27"
+      }
+    },
+    "e219": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583177",
+      "ocel:omap": [
+        "77",
+        "ot2_0102",
+        "ot2_0103"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val84"
+      }
+    },
+    "e220": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583178",
+      "ocel:omap": [
+        "78",
+        "ot2_0104",
+        "ot2_0105"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val408"
+      }
+    },
+    "e221": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583178",
+      "ocel:omap": [
+        "79",
+        "ot2_0106",
+        "ot2_0107"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val206",
+        "event_attr2": "event_val13"
+      }
+    },
+    "e222": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583179",
+      "ocel:omap": [
+        "79",
+        "ot1_0103",
+        "ot1_0104"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val654"
+      }
+    },
+    "e223": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583179",
+      "ocel:omap": [
+        "79",
+        "ot3_0114"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val269",
+        "event_attr2": "event_val227"
+      }
+    },
+    "e224": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583180",
+      "ocel:omap": [
+        "79",
+        "ot1_0105"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val21",
+        "event_attr2": "event_val373"
+      }
+    },
+    "e225": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583180",
+      "ocel:omap": [
+        "80",
+        "ot2_0108"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val340"
+      }
+    },
+    "e226": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583181",
+      "ocel:omap": [
+        "81",
+        "ot1_0106",
+        "ot1_0107"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val913"
+      }
+    },
+    "e227": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583182",
+      "ocel:omap": [
+        "81",
+        "ot3_0115"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val181"
+      }
+    },
+    "e228": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583182",
+      "ocel:omap": [
+        "81",
+        "ot2_0109",
+        "ot2_0110"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val265"
+      }
+    },
+    "e229": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583182",
+      "ocel:omap": [
+        "81",
+        "ot1_0108",
+        "ot1_0109"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val537"
+      }
+    },
+    "e230": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583183",
+      "ocel:omap": [
+        "82",
+        "ot3_0116",
+        "ot3_0117"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val707",
+        "event_attr2": "event_val726"
+      }
+    },
+    "e231": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583183",
+      "ocel:omap": [
+        "82",
+        "ot3_0118",
+        "ot3_0119"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val496",
+        "event_attr2": "event_val576"
+      }
+    },
+    "e232": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583184",
+      "ocel:omap": [
+        "82",
+        "ot1_0110"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val1",
+        "event_attr2": "event_val565"
+      }
+    },
+    "e233": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583184",
+      "ocel:omap": [
+        "82",
+        "ot2_0111"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val302"
+      }
+    },
+    "e234": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583185",
+      "ocel:omap": [
+        "83",
+        "ot1_0111"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val191"
+      }
+    },
+    "e235": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583185",
+      "ocel:omap": [
+        "83",
+        "ot3_0120",
+        "ot3_0121"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val539"
+      }
+    },
+    "e236": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583186",
+      "ocel:omap": [
+        "84",
+        "ot1_0112"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val30"
+      }
+    },
+    "e237": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583186",
+      "ocel:omap": [
+        "84",
+        "ot2_0112"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val789"
+      }
+    },
+    "e238": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583187",
+      "ocel:omap": [
+        "84",
+        "ot3_0122",
+        "ot3_0123"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val749"
+      }
+    },
+    "e239": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583187",
+      "ocel:omap": [
+        "84",
+        "ot3_0124",
+        "ot3_0125"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val850"
+      }
+    },
+    "e240": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583188",
+      "ocel:omap": [
+        "85",
+        "ot1_0113",
+        "ot1_0114"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val594"
+      }
+    },
+    "e241": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583188",
+      "ocel:omap": [
+        "85",
+        "ot3_0126",
+        "ot3_0127"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val834"
+      }
+    },
+    "e242": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583189",
+      "ocel:omap": [
+        "85",
+        "ot2_0113"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val908"
+      }
+    },
+    "e243": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583189",
+      "ocel:omap": [
+        "85",
+        "ot2_0114"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val373"
+      }
+    },
+    "e244": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583190",
+      "ocel:omap": [
+        "86",
+        "ot1_0115"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val29"
+      }
+    },
+    "e245": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583190",
+      "ocel:omap": [
+        "87",
+        "ot1_0116",
+        "ot1_0117"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val692",
+        "event_attr2": "event_val277"
+      }
+    },
+    "e246": {
+      "ocel:activity": "f",
+      "ocel:timestamp": "2025-06-17T18:52:00.583191",
+      "ocel:omap": [
+        "88",
+        "ot2_0115",
+        "ot2_0116"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val857",
+        "event_attr2": "event_val627"
+      }
+    },
+    "e247": {
+      "ocel:activity": "i",
+      "ocel:timestamp": "2025-06-17T18:52:00.583191",
+      "ocel:omap": [
+        "88",
+        "ot3_0128",
+        "ot3_0129"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val907",
+        "event_attr2": "event_val83"
+      }
+    },
+    "e248": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583192",
+      "ocel:omap": [
+        "89",
+        "ot3_0130"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val877"
+      }
+    },
+    "e249": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583193",
+      "ocel:omap": [
+        "89",
+        "ot1_0118"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val414",
+        "event_attr2": "event_val789"
+      }
+    },
+    "e250": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583193",
+      "ocel:omap": [
+        "89",
+        "ot1_0119"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val36",
+        "event_attr2": "event_val615"
+      }
+    },
+    "e251": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583193",
+      "ocel:omap": [
+        "89",
+        "ot2_0117"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val36",
+        "event_attr2": "event_val104"
+      }
+    },
+    "e252": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583194",
+      "ocel:omap": [
+        "90",
+        "ot3_0131"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val383"
+      }
+    },
+    "e253": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583194",
+      "ocel:omap": [
+        "90",
+        "ot3_0132"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val761",
+        "event_attr2": "event_val847"
+      }
+    },
+    "e254": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583195",
+      "ocel:omap": [
+        "90",
+        "ot2_0118"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val210",
+        "event_attr2": "event_val793"
+      }
+    },
+    "e255": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583195",
+      "ocel:omap": [
+        "90",
+        "ot1_0120"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val7"
+      }
+    },
+    "e256": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583196",
+      "ocel:omap": [
+        "91",
+        "ot2_0119",
+        "ot2_0120"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val27"
+      }
+    },
+    "e257": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583197",
+      "ocel:omap": [
+        "92",
+        "ot2_0121"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val86",
+        "event_attr2": "event_val772"
+      }
+    },
+    "e258": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583197",
+      "ocel:omap": [
+        "92",
+        "ot2_0122"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val205",
+        "event_attr2": "event_val234"
+      }
+    },
+    "e259": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583197",
+      "ocel:omap": [
+        "92",
+        "ot2_0123"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val577",
+        "event_attr2": "event_val652"
+      }
+    },
+    "e260": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583198",
+      "ocel:omap": [
+        "92",
+        "ot1_0121",
+        "ot1_0122"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val91"
+      }
+    },
+    "e261": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583199",
+      "ocel:omap": [
+        "93",
+        "ot1_0123",
+        "ot1_0124"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val300"
+      }
+    },
+    "e262": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583199",
+      "ocel:omap": [
+        "93",
+        "ot1_0125"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val893"
+      }
+    },
+    "e263": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583199",
+      "ocel:omap": [
+        "93",
+        "ot1_0126"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val47"
+      }
+    },
+    "e264": {
+      "ocel:activity": "a",
+      "ocel:timestamp": "2025-06-17T18:52:00.583200",
+      "ocel:omap": [
+        "93",
+        "ot1_0127"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val747"
+      }
+    },
+    "e265": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583200",
+      "ocel:omap": [
+        "94",
+        "ot1_0128",
+        "ot1_0129"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val840",
+        "event_attr2": "event_val928"
+      }
+    },
+    "e266": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583201",
+      "ocel:omap": [
+        "94",
+        "ot3_0133"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val311"
+      }
+    },
+    "e267": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583201",
+      "ocel:omap": [
+        "94",
+        "ot2_0124",
+        "ot2_0125"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val11",
+        "event_attr2": "event_val520"
+      }
+    },
+    "e268": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583202",
+      "ocel:omap": [
+        "94",
+        "ot2_0125",
+        "ot2_0124"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val296",
+        "event_attr2": "event_val51"
+      }
+    },
+    "e269": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583202",
+      "ocel:omap": [
+        "95",
+        "ot1_0130",
+        "ot1_0131"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val356",
+        "event_attr2": "event_val783"
+      }
+    },
+    "e270": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583203",
+      "ocel:omap": [
+        "95",
+        "ot3_0134"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val690",
+        "event_attr2": "event_val819"
+      }
+    },
+    "e271": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583203",
+      "ocel:omap": [
+        "95",
+        "ot1_0132"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val469",
+        "event_attr2": "event_val681"
+      }
+    },
+    "e272": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583204",
+      "ocel:omap": [
+        "95",
+        "ot3_0135",
+        "ot3_0136"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val54",
+        "event_attr2": "event_val496"
+      }
+    },
+    "e273": {
+      "ocel:activity": "g",
+      "ocel:timestamp": "2025-06-17T18:52:00.583204",
+      "ocel:omap": [
+        "96",
+        "ot1_0133",
+        "ot1_0134"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val865"
+      }
+    },
+    "e274": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583205",
+      "ocel:omap": [
+        "96",
+        "ot2_0126"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val368",
+        "event_attr2": "event_val772"
+      }
+    },
+    "e275": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583205",
+      "ocel:omap": [
+        "96",
+        "ot1_0135"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val619"
+      }
+    },
+    "e276": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583205",
+      "ocel:omap": [
+        "96",
+        "ot3_0137",
+        "ot3_0138"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val71",
+        "event_attr2": "event_val456"
+      }
+    },
+    "e277": {
+      "ocel:activity": "e",
+      "ocel:timestamp": "2025-06-17T18:52:00.583206",
+      "ocel:omap": [
+        "97",
+        "ot3_0139"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val372",
+        "event_attr2": "event_val589"
+      }
+    },
+    "e278": {
+      "ocel:activity": "c",
+      "ocel:timestamp": "2025-06-17T18:52:00.583206",
+      "ocel:omap": [
+        "97",
+        "ot2_0127",
+        "ot2_0128"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val532",
+        "event_attr2": "event_val613"
+      }
+    },
+    "e279": {
+      "ocel:activity": "j",
+      "ocel:timestamp": "2025-06-17T18:52:00.583207",
+      "ocel:omap": [
+        "97",
+        "ot1_0136"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val472"
+      }
+    },
+    "e280": {
+      "ocel:activity": "h",
+      "ocel:timestamp": "2025-06-17T18:52:00.583207",
+      "ocel:omap": [
+        "97",
+        "ot1_0137",
+        "ot1_0138"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val64",
+        "event_attr2": "event_val492"
+      }
+    },
+    "e281": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583208",
+      "ocel:omap": [
+        "98",
+        "ot1_0139",
+        "ot1_0140"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val307"
+      }
+    },
+    "e282": {
+      "ocel:activity": "b",
+      "ocel:timestamp": "2025-06-17T18:52:00.583209",
+      "ocel:omap": [
+        "99",
+        "ot3_0140"
+      ],
+      "ocel:vmap": {
+        "event_attr1": "event_val896",
+        "event_attr2": "event_val663"
+      }
+    }
+  },
+  "ocel:objects": {
+    "0": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val270"
+      }
+    },
+    "ot1_0001": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val591"
+      }
+    },
+    "ot2_0001": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val104"
+      }
+    },
+    "ot2_0002": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val664",
+        "object_attr2": "object_val318"
+      }
+    },
+    "ot2_0003": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val96"
+      }
+    },
+    "1": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val470",
+        "object_attr2": "object_val496"
+      }
+    },
+    "ot1_0002": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val963",
+        "object_attr2": "object_val703"
+      }
+    },
+    "ot1_0003": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val370",
+        "object_attr2": "object_val512"
+      }
+    },
+    "2": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val425",
+        "object_attr2": "object_val568"
+      }
+    },
+    "ot2_0004": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val635"
+      }
+    },
+    "ot3_0001": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val822"
+      }
+    },
+    "ot3_0002": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val31",
+        "object_attr2": "object_val237"
+      }
+    },
+    "ot3_0003": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val872",
+        "object_attr2": "object_val248"
+      }
+    },
+    "ot3_0004": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val979"
+      }
+    },
+    "ot3_0005": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val366",
+        "object_attr2": "object_val906"
+      }
+    },
+    "3": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val308"
+      }
+    },
+    "ot2_0005": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val712"
+      }
+    },
+    "ot2_0006": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val938",
+        "object_attr2": "object_val334"
+      }
+    },
+    "4": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val460"
+      }
+    },
+    "ot1_0004": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val740",
+        "object_attr2": "object_val225"
+      }
+    },
+    "ot1_0005": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val482"
+      }
+    },
+    "5": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val620",
+        "object_attr2": "object_val405"
+      }
+    },
+    "ot2_0007": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val869",
+        "object_attr2": "object_val922"
+      }
+    },
+    "ot2_0008": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val945"
+      }
+    },
+    "ot1_0006": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val813"
+      }
+    },
+    "ot2_0009": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val365"
+      }
+    },
+    "ot2_0010": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val418",
+        "object_attr2": "object_val457"
+      }
+    },
+    "ot1_0007": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val249",
+        "object_attr2": "object_val477"
+      }
+    },
+    "6": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val46"
+      }
+    },
+    "ot3_0006": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val422"
+      }
+    },
+    "ot1_0008": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val8",
+        "object_attr2": "object_val575"
+      }
+    },
+    "ot1_0009": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val411",
+        "object_attr2": "object_val785"
+      }
+    },
+    "ot1_0010": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val221",
+        "object_attr2": "object_val39"
+      }
+    },
+    "7": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val928",
+        "object_attr2": "object_val774"
+      }
+    },
+    "ot1_0011": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val530"
+      }
+    },
+    "ot1_0012": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val415",
+        "object_attr2": "object_val888"
+      }
+    },
+    "ot1_0013": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val26"
+      }
+    },
+    "ot2_0011": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val180"
+      }
+    },
+    "ot3_0007": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val742",
+        "object_attr2": "object_val501"
+      }
+    },
+    "8": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val65",
+        "object_attr2": "object_val334"
+      }
+    },
+    "ot2_0012": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val594"
+      }
+    },
+    "ot2_0013": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val384"
+      }
+    },
+    "ot3_0008": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val771"
+      }
+    },
+    "ot3_0009": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val212"
+      }
+    },
+    "ot2_0014": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val318"
+      }
+    },
+    "ot2_0015": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val318",
+        "object_attr2": "object_val849"
+      }
+    },
+    "ot3_0010": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val788"
+      }
+    },
+    "ot3_0011": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val423",
+        "object_attr2": "object_val672"
+      }
+    },
+    "9": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val859"
+      }
+    },
+    "ot3_0012": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val872",
+        "object_attr2": "object_val626"
+      }
+    },
+    "ot1_0014": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val94"
+      }
+    },
+    "ot2_0016": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val490",
+        "object_attr2": "object_val242"
+      }
+    },
+    "ot2_0017": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val398",
+        "object_attr2": "object_val428"
+      }
+    },
+    "ot1_0015": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val587"
+      }
+    },
+    "ot1_0016": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val107"
+      }
+    },
+    "10": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val361",
+        "object_attr2": "object_val767"
+      }
+    },
+    "ot1_0017": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val838"
+      }
+    },
+    "ot3_0013": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val591"
+      }
+    },
+    "ot3_0014": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val585"
+      }
+    },
+    "ot1_0018": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val181",
+        "object_attr2": "object_val476"
+      }
+    },
+    "ot1_0019": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val601",
+        "object_attr2": "object_val254"
+      }
+    },
+    "ot2_0018": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val324"
+      }
+    },
+    "ot2_0019": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val934",
+        "object_attr2": "object_val552"
+      }
+    },
+    "11": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val220"
+      }
+    },
+    "ot3_0015": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val48",
+        "object_attr2": "object_val881"
+      }
+    },
+    "12": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val235"
+      }
+    },
+    "ot3_0016": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val794",
+        "object_attr2": "object_val442"
+      }
+    },
+    "ot3_0017": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val461"
+      }
+    },
+    "ot1_0020": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val348",
+        "object_attr2": "object_val925"
+      }
+    },
+    "ot1_0021": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val437",
+        "object_attr2": "object_val855"
+      }
+    },
+    "ot2_0020": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val862",
+        "object_attr2": "object_val186"
+      }
+    },
+    "13": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val490"
+      }
+    },
+    "ot2_0021": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val918",
+        "object_attr2": "object_val58"
+      }
+    },
+    "ot2_0022": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val934"
+      }
+    },
+    "14": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val427"
+      }
+    },
+    "ot2_0023": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val796",
+        "object_attr2": "object_val60"
+      }
+    },
+    "ot2_0024": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val290"
+      }
+    },
+    "ot2_0025": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val520",
+        "object_attr2": "object_val184"
+      }
+    },
+    "ot1_0022": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val481"
+      }
+    },
+    "ot1_0023": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val982",
+        "object_attr2": "object_val547"
+      }
+    },
+    "ot3_0018": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val199",
+        "object_attr2": "object_val751"
+      }
+    },
+    "ot3_0019": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val835"
+      }
+    },
+    "15": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val294"
+      }
+    },
+    "ot3_0020": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val898",
+        "object_attr2": "object_val504"
+      }
+    },
+    "ot1_0024": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val395"
+      }
+    },
+    "16": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val538"
+      }
+    },
+    "ot1_0025": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val700"
+      }
+    },
+    "ot1_0026": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val587"
+      }
+    },
+    "ot1_0027": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val902",
+        "object_attr2": "object_val617"
+      }
+    },
+    "ot1_0028": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val59",
+        "object_attr2": "object_val110"
+      }
+    },
+    "17": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val245"
+      }
+    },
+    "ot2_0026": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val21",
+        "object_attr2": "object_val502"
+      }
+    },
+    "ot2_0027": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val388",
+        "object_attr2": "object_val378"
+      }
+    },
+    "ot1_0029": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val566",
+        "object_attr2": "object_val131"
+      }
+    },
+    "18": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val669"
+      }
+    },
+    "ot2_0028": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val44"
+      }
+    },
+    "ot1_0030": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val287",
+        "object_attr2": "object_val716"
+      }
+    },
+    "19": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val113"
+      }
+    },
+    "ot1_0031": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val590",
+        "object_attr2": "object_val487"
+      }
+    },
+    "ot1_0032": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val771",
+        "object_attr2": "object_val258"
+      }
+    },
+    "ot3_0021": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val115",
+        "object_attr2": "object_val443"
+      }
+    },
+    "ot3_0022": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val802",
+        "object_attr2": "object_val115"
+      }
+    },
+    "ot3_0023": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val10",
+        "object_attr2": "object_val880"
+      }
+    },
+    "ot3_0024": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val398"
+      }
+    },
+    "ot1_0033": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val465"
+      }
+    },
+    "ot1_0034": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val335"
+      }
+    },
+    "20": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val856",
+        "object_attr2": "object_val917"
+      }
+    },
+    "ot1_0035": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val692",
+        "object_attr2": "object_val833"
+      }
+    },
+    "ot3_0025": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val107"
+      }
+    },
+    "ot3_0026": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val466"
+      }
+    },
+    "ot3_0027": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val706",
+        "object_attr2": "object_val135"
+      }
+    },
+    "ot3_0028": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val7",
+        "object_attr2": "object_val663"
+      }
+    },
+    "ot3_0029": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val256"
+      }
+    },
+    "21": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val325"
+      }
+    },
+    "ot3_0030": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val253"
+      }
+    },
+    "ot3_0031": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val986",
+        "object_attr2": "object_val415"
+      }
+    },
+    "ot3_0032": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val523",
+        "object_attr2": "object_val450"
+      }
+    },
+    "ot3_0033": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val260"
+      }
+    },
+    "22": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val391",
+        "object_attr2": "object_val268"
+      }
+    },
+    "ot1_0036": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val914",
+        "object_attr2": "object_val629"
+      }
+    },
+    "ot1_0037": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val341"
+      }
+    },
+    "ot3_0034": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val601"
+      }
+    },
+    "ot3_0035": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val434"
+      }
+    },
+    "23": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val529",
+        "object_attr2": "object_val979"
+      }
+    },
+    "ot1_0038": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val725"
+      }
+    },
+    "ot3_0036": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val896",
+        "object_attr2": "object_val217"
+      }
+    },
+    "ot3_0037": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val463"
+      }
+    },
+    "24": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val191",
+        "object_attr2": "object_val643"
+      }
+    },
+    "ot3_0038": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val66"
+      }
+    },
+    "ot3_0039": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val318",
+        "object_attr2": "object_val685"
+      }
+    },
+    "25": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val783"
+      }
+    },
+    "ot3_0040": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val59",
+        "object_attr2": "object_val387"
+      }
+    },
+    "ot3_0041": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val810"
+      }
+    },
+    "ot2_0029": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val6",
+        "object_attr2": "object_val163"
+      }
+    },
+    "ot2_0030": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val300"
+      }
+    },
+    "ot3_0042": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val79"
+      }
+    },
+    "ot2_0031": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val398"
+      }
+    },
+    "26": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val644",
+        "object_attr2": "object_val220"
+      }
+    },
+    "ot3_0043": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val293"
+      }
+    },
+    "ot3_0044": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val192",
+        "object_attr2": "object_val701"
+      }
+    },
+    "27": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val386"
+      }
+    },
+    "ot2_0032": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val357",
+        "object_attr2": "object_val119"
+      }
+    },
+    "ot2_0033": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val867"
+      }
+    },
+    "ot2_0034": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val669"
+      }
+    },
+    "ot1_0039": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val894"
+      }
+    },
+    "ot1_0040": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val312"
+      }
+    },
+    "ot1_0041": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val683",
+        "object_attr2": "object_val33"
+      }
+    },
+    "ot1_0042": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val723",
+        "object_attr2": "object_val391"
+      }
+    },
+    "28": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val411"
+      }
+    },
+    "ot3_0045": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val261",
+        "object_attr2": "object_val138"
+      }
+    },
+    "ot2_0035": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val423"
+      }
+    },
+    "ot2_0036": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val292",
+        "object_attr2": "object_val752"
+      }
+    },
+    "ot2_0037": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val978"
+      }
+    },
+    "ot1_0043": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val838"
+      }
+    },
+    "ot1_0044": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val152"
+      }
+    },
+    "29": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val893",
+        "object_attr2": "object_val979"
+      }
+    },
+    "ot2_0038": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val957",
+        "object_attr2": "object_val697"
+      }
+    },
+    "ot2_0039": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val159"
+      }
+    },
+    "30": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val460",
+        "object_attr2": "object_val138"
+      }
+    },
+    "ot2_0040": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val908",
+        "object_attr2": "object_val804"
+      }
+    },
+    "ot1_0045": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val95",
+        "object_attr2": "object_val335"
+      }
+    },
+    "31": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val883"
+      }
+    },
+    "ot3_0046": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val180",
+        "object_attr2": "object_val870"
+      }
+    },
+    "ot2_0041": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val378",
+        "object_attr2": "object_val433"
+      }
+    },
+    "ot1_0046": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val771"
+      }
+    },
+    "ot2_0042": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val997"
+      }
+    },
+    "32": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val97"
+      }
+    },
+    "ot2_0043": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val595"
+      }
+    },
+    "ot2_0044": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val297",
+        "object_attr2": "object_val762"
+      }
+    },
+    "ot3_0047": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val512",
+        "object_attr2": "object_val363"
+      }
+    },
+    "33": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val943"
+      }
+    },
+    "ot3_0048": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val629"
+      }
+    },
+    "ot3_0049": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val800"
+      }
+    },
+    "34": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val905",
+        "object_attr2": "object_val276"
+      }
+    },
+    "ot3_0050": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val326",
+        "object_attr2": "object_val769"
+      }
+    },
+    "35": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val428"
+      }
+    },
+    "ot1_0047": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val500",
+        "object_attr2": "object_val452"
+      }
+    },
+    "ot3_0051": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val589"
+      }
+    },
+    "ot1_0048": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val907",
+        "object_attr2": "object_val874"
+      }
+    },
+    "ot1_0049": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val174",
+        "object_attr2": "object_val670"
+      }
+    },
+    "ot2_0045": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val411"
+      }
+    },
+    "36": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val902",
+        "object_attr2": "object_val643"
+      }
+    },
+    "ot3_0052": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val872"
+      }
+    },
+    "ot3_0053": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val239"
+      }
+    },
+    "37": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val674"
+      }
+    },
+    "ot3_0054": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val482"
+      }
+    },
+    "ot3_0055": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val809"
+      }
+    },
+    "38": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val44"
+      }
+    },
+    "ot2_0046": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val378"
+      }
+    },
+    "ot2_0047": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val818",
+        "object_attr2": "object_val823"
+      }
+    },
+    "ot2_0048": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val822",
+        "object_attr2": "object_val538"
+      }
+    },
+    "ot2_0049": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val595"
+      }
+    },
+    "ot1_0050": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val277",
+        "object_attr2": "object_val281"
+      }
+    },
+    "ot1_0051": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val675"
+      }
+    },
+    "39": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val979",
+        "object_attr2": "object_val927"
+      }
+    },
+    "ot1_0052": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val341"
+      }
+    },
+    "ot3_0056": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val951"
+      }
+    },
+    "40": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val697",
+        "object_attr2": "object_val477"
+      }
+    },
+    "ot3_0057": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val512",
+        "object_attr2": "object_val812"
+      }
+    },
+    "ot1_0053": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val337",
+        "object_attr2": "object_val956"
+      }
+    },
+    "ot1_0054": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val87",
+        "object_attr2": "object_val353"
+      }
+    },
+    "ot2_0050": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val597"
+      }
+    },
+    "ot2_0051": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val409",
+        "object_attr2": "object_val313"
+      }
+    },
+    "41": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val550",
+        "object_attr2": "object_val514"
+      }
+    },
+    "ot3_0058": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val815",
+        "object_attr2": "object_val490"
+      }
+    },
+    "ot3_0059": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val651"
+      }
+    },
+    "ot3_0060": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val91"
+      }
+    },
+    "ot3_0061": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val104",
+        "object_attr2": "object_val607"
+      }
+    },
+    "ot1_0055": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val867"
+      }
+    },
+    "ot1_0056": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val972",
+        "object_attr2": "object_val894"
+      }
+    },
+    "ot1_0057": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val132"
+      }
+    },
+    "ot1_0058": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val742"
+      }
+    },
+    "42": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val157"
+      }
+    },
+    "ot1_0059": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val280"
+      }
+    },
+    "ot1_0060": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val351",
+        "object_attr2": "object_val954"
+      }
+    },
+    "ot3_0062": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val874"
+      }
+    },
+    "ot3_0063": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val736",
+        "object_attr2": "object_val701"
+      }
+    },
+    "ot2_0052": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val462",
+        "object_attr2": "object_val419"
+      }
+    },
+    "ot2_0053": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val802"
+      }
+    },
+    "43": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val152",
+        "object_attr2": "object_val62"
+      }
+    },
+    "ot2_0054": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val797",
+        "object_attr2": "object_val657"
+      }
+    },
+    "ot2_0055": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val816",
+        "object_attr2": "object_val611"
+      }
+    },
+    "ot3_0064": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val898"
+      }
+    },
+    "ot3_0065": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val922",
+        "object_attr2": "object_val161"
+      }
+    },
+    "ot1_0061": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val773"
+      }
+    },
+    "ot2_0056": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val721",
+        "object_attr2": "object_val45"
+      }
+    },
+    "ot2_0057": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val32",
+        "object_attr2": "object_val362"
+      }
+    },
+    "44": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val974",
+        "object_attr2": "object_val319"
+      }
+    },
+    "ot3_0066": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val458",
+        "object_attr2": "object_val390"
+      }
+    },
+    "45": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val194",
+        "object_attr2": "object_val731"
+      }
+    },
+    "ot2_0058": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val81",
+        "object_attr2": "object_val123"
+      }
+    },
+    "ot2_0059": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val78"
+      }
+    },
+    "ot3_0067": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val655",
+        "object_attr2": "object_val649"
+      }
+    },
+    "ot3_0068": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val523",
+        "object_attr2": "object_val627"
+      }
+    },
+    "ot1_0062": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val752"
+      }
+    },
+    "ot1_0063": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val654"
+      }
+    },
+    "46": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val325"
+      }
+    },
+    "ot3_0069": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val179"
+      }
+    },
+    "47": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val61",
+        "object_attr2": "object_val357"
+      }
+    },
+    "ot3_0070": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val77",
+        "object_attr2": "object_val918"
+      }
+    },
+    "ot3_0071": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val270"
+      }
+    },
+    "ot2_0060": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val120"
+      }
+    },
+    "48": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val596"
+      }
+    },
+    "ot3_0072": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val482"
+      }
+    },
+    "ot3_0073": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val520",
+        "object_attr2": "object_val242"
+      }
+    },
+    "ot3_0074": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val497",
+        "object_attr2": "object_val708"
+      }
+    },
+    "49": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val31",
+        "object_attr2": "object_val107"
+      }
+    },
+    "ot3_0075": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val25"
+      }
+    },
+    "ot1_0064": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val269"
+      }
+    },
+    "ot1_0065": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val59"
+      }
+    },
+    "ot1_0066": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val439"
+      }
+    },
+    "50": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val371",
+        "object_attr2": "object_val221"
+      }
+    },
+    "ot3_0076": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val139"
+      }
+    },
+    "51": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val973"
+      }
+    },
+    "ot3_0077": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val770"
+      }
+    },
+    "ot1_0067": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val711",
+        "object_attr2": "object_val500"
+      }
+    },
+    "ot1_0068": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val216"
+      }
+    },
+    "ot1_0069": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val256"
+      }
+    },
+    "ot1_0070": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val950",
+        "object_attr2": "object_val687"
+      }
+    },
+    "52": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val586"
+      }
+    },
+    "ot2_0061": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val396"
+      }
+    },
+    "ot2_0062": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val298"
+      }
+    },
+    "ot2_0063": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val470",
+        "object_attr2": "object_val261"
+      }
+    },
+    "ot3_0078": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val441"
+      }
+    },
+    "ot2_0064": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val905",
+        "object_attr2": "object_val55"
+      }
+    },
+    "ot2_0065": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val197"
+      }
+    },
+    "53": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val912",
+        "object_attr2": "object_val336"
+      }
+    },
+    "ot3_0079": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val840"
+      }
+    },
+    "54": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val868"
+      }
+    },
+    "ot3_0080": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val324",
+        "object_attr2": "object_val984"
+      }
+    },
+    "ot2_0066": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val526"
+      }
+    },
+    "ot2_0067": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val941"
+      }
+    },
+    "ot2_0068": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val840"
+      }
+    },
+    "ot3_0081": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val667"
+      }
+    },
+    "ot3_0082": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val253",
+        "object_attr2": "object_val472"
+      }
+    },
+    "55": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val741",
+        "object_attr2": "object_val319"
+      }
+    },
+    "ot2_0069": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val606",
+        "object_attr2": "object_val973"
+      }
+    },
+    "ot2_0070": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val28"
+      }
+    },
+    "ot2_0071": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val761"
+      }
+    },
+    "ot3_0083": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val609",
+        "object_attr2": "object_val590"
+      }
+    },
+    "56": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val135",
+        "object_attr2": "object_val902"
+      }
+    },
+    "ot2_0072": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val159"
+      }
+    },
+    "ot2_0073": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val966",
+        "object_attr2": "object_val197"
+      }
+    },
+    "57": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val544"
+      }
+    },
+    "ot2_0074": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val116"
+      }
+    },
+    "ot2_0075": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val226"
+      }
+    },
+    "ot2_0076": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val465",
+        "object_attr2": "object_val752"
+      }
+    },
+    "ot3_0084": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val318",
+        "object_attr2": "object_val953"
+      }
+    },
+    "58": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val471",
+        "object_attr2": "object_val13"
+      }
+    },
+    "ot2_0077": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val791"
+      }
+    },
+    "ot1_0071": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val399",
+        "object_attr2": "object_val928"
+      }
+    },
+    "ot3_0085": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val323"
+      }
+    },
+    "ot3_0086": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val267",
+        "object_attr2": "object_val730"
+      }
+    },
+    "ot2_0078": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val982",
+        "object_attr2": "object_val763"
+      }
+    },
+    "59": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val935",
+        "object_attr2": "object_val183"
+      }
+    },
+    "ot1_0072": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val831"
+      }
+    },
+    "ot3_0087": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val886",
+        "object_attr2": "object_val26"
+      }
+    },
+    "ot3_0088": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val615"
+      }
+    },
+    "ot3_0089": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val590",
+        "object_attr2": "object_val685"
+      }
+    },
+    "ot2_0079": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val877",
+        "object_attr2": "object_val496"
+      }
+    },
+    "ot2_0080": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val490"
+      }
+    },
+    "60": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val539"
+      }
+    },
+    "ot2_0081": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val474"
+      }
+    },
+    "ot2_0082": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val307",
+        "object_attr2": "object_val955"
+      }
+    },
+    "ot2_0083": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val284"
+      }
+    },
+    "ot2_0084": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val668"
+      }
+    },
+    "ot3_0090": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val520",
+        "object_attr2": "object_val925"
+      }
+    },
+    "ot3_0091": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val848"
+      }
+    },
+    "ot1_0073": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val951",
+        "object_attr2": "object_val949"
+      }
+    },
+    "ot1_0074": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val896",
+        "object_attr2": "object_val918"
+      }
+    },
+    "61": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val766",
+        "object_attr2": "object_val732"
+      }
+    },
+    "ot3_0092": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val42",
+        "object_attr2": "object_val53"
+      }
+    },
+    "ot3_0093": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val774",
+        "object_attr2": "object_val50"
+      }
+    },
+    "ot3_0094": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val607",
+        "object_attr2": "object_val988"
+      }
+    },
+    "ot2_0085": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val98"
+      }
+    },
+    "ot2_0086": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val474"
+      }
+    },
+    "ot1_0075": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val524",
+        "object_attr2": "object_val450"
+      }
+    },
+    "ot1_0076": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val776"
+      }
+    },
+    "62": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val183"
+      }
+    },
+    "ot1_0077": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val158"
+      }
+    },
+    "ot2_0087": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val206",
+        "object_attr2": "object_val512"
+      }
+    },
+    "ot3_0095": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val531",
+        "object_attr2": "object_val841"
+      }
+    },
+    "ot3_0096": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val162"
+      }
+    },
+    "ot1_0078": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val55"
+      }
+    },
+    "63": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val316",
+        "object_attr2": "object_val324"
+      }
+    },
+    "ot2_0088": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val709"
+      }
+    },
+    "ot3_0097": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val309",
+        "object_attr2": "object_val367"
+      }
+    },
+    "ot3_0098": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val889"
+      }
+    },
+    "64": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val579",
+        "object_attr2": "object_val208"
+      }
+    },
+    "ot3_0099": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val986"
+      }
+    },
+    "ot3_0100": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val353"
+      }
+    },
+    "65": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val915"
+      }
+    },
+    "ot3_0101": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val237"
+      }
+    },
+    "ot2_0089": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val352",
+        "object_attr2": "object_val245"
+      }
+    },
+    "ot1_0079": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val988",
+        "object_attr2": "object_val563"
+      }
+    },
+    "ot1_0080": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val509"
+      }
+    },
+    "ot1_0081": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val298",
+        "object_attr2": "object_val598"
+      }
+    },
+    "66": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val743"
+      }
+    },
+    "ot3_0102": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val450"
+      }
+    },
+    "ot3_0103": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val23"
+      }
+    },
+    "ot1_0082": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val743",
+        "object_attr2": "object_val475"
+      }
+    },
+    "ot1_0083": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val659"
+      }
+    },
+    "ot1_0084": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val670"
+      }
+    },
+    "ot1_0085": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val176"
+      }
+    },
+    "ot1_0086": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val799",
+        "object_attr2": "object_val173"
+      }
+    },
+    "67": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val694"
+      }
+    },
+    "ot2_0090": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val387",
+        "object_attr2": "object_val320"
+      }
+    },
+    "ot2_0091": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val641",
+        "object_attr2": "object_val540"
+      }
+    },
+    "68": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val799"
+      }
+    },
+    "ot2_0092": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val412"
+      }
+    },
+    "69": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val112"
+      }
+    },
+    "ot2_0093": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val995",
+        "object_attr2": "object_val544"
+      }
+    },
+    "ot2_0094": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val180"
+      }
+    },
+    "ot1_0087": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val609"
+      }
+    },
+    "ot1_0088": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val177"
+      }
+    },
+    "ot3_0104": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val837"
+      }
+    },
+    "ot3_0105": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val376",
+        "object_attr2": "object_val678"
+      }
+    },
+    "70": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val164"
+      }
+    },
+    "ot1_0089": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val100"
+      }
+    },
+    "ot1_0090": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val303"
+      }
+    },
+    "ot1_0091": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val607",
+        "object_attr2": "object_val75"
+      }
+    },
+    "ot2_0095": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val987"
+      }
+    },
+    "ot2_0096": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val795",
+        "object_attr2": "object_val884"
+      }
+    },
+    "ot1_0092": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val808",
+        "object_attr2": "object_val89"
+      }
+    },
+    "71": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val403",
+        "object_attr2": "object_val307"
+      }
+    },
+    "ot3_0106": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val58",
+        "object_attr2": "object_val909"
+      }
+    },
+    "ot1_0093": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val597"
+      }
+    },
+    "ot1_0094": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val95"
+      }
+    },
+    "ot1_0095": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val26"
+      }
+    },
+    "ot2_0097": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val227",
+        "object_attr2": "object_val935"
+      }
+    },
+    "72": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val561",
+        "object_attr2": "object_val473"
+      }
+    },
+    "ot1_0096": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val189"
+      }
+    },
+    "ot1_0097": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val703",
+        "object_attr2": "object_val539"
+      }
+    },
+    "ot1_0098": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val729",
+        "object_attr2": "object_val978"
+      }
+    },
+    "ot2_0098": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val131"
+      }
+    },
+    "ot1_0099": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val895"
+      }
+    },
+    "73": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val409"
+      }
+    },
+    "ot3_0107": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val833"
+      }
+    },
+    "ot3_0108": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val70"
+      }
+    },
+    "74": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val49",
+        "object_attr2": "object_val42"
+      }
+    },
+    "ot2_0099": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val808",
+        "object_attr2": "object_val875"
+      }
+    },
+    "75": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val854"
+      }
+    },
+    "ot1_0100": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val778"
+      }
+    },
+    "ot1_0101": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val790",
+        "object_attr2": "object_val596"
+      }
+    },
+    "ot3_0109": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val792",
+        "object_attr2": "object_val131"
+      }
+    },
+    "76": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val69"
+      }
+    },
+    "ot2_0100": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val944"
+      }
+    },
+    "ot3_0110": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val234",
+        "object_attr2": "object_val189"
+      }
+    },
+    "ot3_0111": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val349",
+        "object_attr2": "object_val442"
+      }
+    },
+    "77": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val580"
+      }
+    },
+    "ot3_0112": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val872"
+      }
+    },
+    "ot3_0113": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val92",
+        "object_attr2": "object_val944"
+      }
+    },
+    "ot2_0101": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val693",
+        "object_attr2": "object_val209"
+      }
+    },
+    "ot1_0102": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val907",
+        "object_attr2": "object_val942"
+      }
+    },
+    "ot2_0102": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val704"
+      }
+    },
+    "ot2_0103": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val947"
+      }
+    },
+    "78": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val632"
+      }
+    },
+    "ot2_0104": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val194",
+        "object_attr2": "object_val415"
+      }
+    },
+    "ot2_0105": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val941"
+      }
+    },
+    "79": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val527",
+        "object_attr2": "object_val50"
+      }
+    },
+    "ot2_0106": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val933"
+      }
+    },
+    "ot2_0107": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val135"
+      }
+    },
+    "ot1_0103": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val916"
+      }
+    },
+    "ot1_0104": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val297",
+        "object_attr2": "object_val711"
+      }
+    },
+    "ot3_0114": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val821"
+      }
+    },
+    "ot1_0105": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val65",
+        "object_attr2": "object_val31"
+      }
+    },
+    "80": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val906",
+        "object_attr2": "object_val667"
+      }
+    },
+    "ot2_0108": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val79"
+      }
+    },
+    "81": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val983",
+        "object_attr2": "object_val506"
+      }
+    },
+    "ot1_0106": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val289",
+        "object_attr2": "object_val953"
+      }
+    },
+    "ot1_0107": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val514",
+        "object_attr2": "object_val904"
+      }
+    },
+    "ot3_0115": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val895",
+        "object_attr2": "object_val290"
+      }
+    },
+    "ot2_0109": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val122",
+        "object_attr2": "object_val317"
+      }
+    },
+    "ot2_0110": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val436"
+      }
+    },
+    "ot1_0108": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val443",
+        "object_attr2": "object_val151"
+      }
+    },
+    "ot1_0109": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val18",
+        "object_attr2": "object_val310"
+      }
+    },
+    "82": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val696",
+        "object_attr2": "object_val803"
+      }
+    },
+    "ot3_0116": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val94",
+        "object_attr2": "object_val890"
+      }
+    },
+    "ot3_0117": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val918",
+        "object_attr2": "object_val861"
+      }
+    },
+    "ot3_0118": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val800"
+      }
+    },
+    "ot3_0119": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val151"
+      }
+    },
+    "ot1_0110": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val798",
+        "object_attr2": "object_val951"
+      }
+    },
+    "ot2_0111": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val416",
+        "object_attr2": "object_val557"
+      }
+    },
+    "83": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val169",
+        "object_attr2": "object_val15"
+      }
+    },
+    "ot1_0111": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val423",
+        "object_attr2": "object_val932"
+      }
+    },
+    "ot3_0120": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val449",
+        "object_attr2": "object_val310"
+      }
+    },
+    "ot3_0121": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val493",
+        "object_attr2": "object_val837"
+      }
+    },
+    "84": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val617",
+        "object_attr2": "object_val895"
+      }
+    },
+    "ot1_0112": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val110",
+        "object_attr2": "object_val378"
+      }
+    },
+    "ot2_0112": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val84"
+      }
+    },
+    "ot3_0122": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val392"
+      }
+    },
+    "ot3_0123": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val928"
+      }
+    },
+    "ot3_0124": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val73"
+      }
+    },
+    "ot3_0125": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val601"
+      }
+    },
+    "85": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val219"
+      }
+    },
+    "ot1_0113": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val389",
+        "object_attr2": "object_val694"
+      }
+    },
+    "ot1_0114": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val354",
+        "object_attr2": "object_val229"
+      }
+    },
+    "ot3_0126": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val509"
+      }
+    },
+    "ot3_0127": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val183",
+        "object_attr2": "object_val888"
+      }
+    },
+    "ot2_0113": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val568"
+      }
+    },
+    "ot2_0114": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val794",
+        "object_attr2": "object_val915"
+      }
+    },
+    "86": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val499"
+      }
+    },
+    "ot1_0115": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val87",
+        "object_attr2": "object_val970"
+      }
+    },
+    "87": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val854",
+        "object_attr2": "object_val417"
+      }
+    },
+    "ot1_0116": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val335"
+      }
+    },
+    "ot1_0117": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val135"
+      }
+    },
+    "88": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val767"
+      }
+    },
+    "ot2_0115": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val28"
+      }
+    },
+    "ot2_0116": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val692"
+      }
+    },
+    "ot3_0128": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val185",
+        "object_attr2": "object_val187"
+      }
+    },
+    "ot3_0129": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val935"
+      }
+    },
+    "89": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val85",
+        "object_attr2": "object_val975"
+      }
+    },
+    "ot3_0130": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val707",
+        "object_attr2": "object_val846"
+      }
+    },
+    "ot1_0118": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val356",
+        "object_attr2": "object_val256"
+      }
+    },
+    "ot1_0119": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val901",
+        "object_attr2": "object_val242"
+      }
+    },
+    "ot2_0117": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val569"
+      }
+    },
+    "90": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val785"
+      }
+    },
+    "ot3_0131": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val688"
+      }
+    },
+    "ot3_0132": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val779",
+        "object_attr2": "object_val981"
+      }
+    },
+    "ot2_0118": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val184"
+      }
+    },
+    "ot1_0120": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val184"
+      }
+    },
+    "91": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val940",
+        "object_attr2": "object_val330"
+      }
+    },
+    "ot2_0119": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val308",
+        "object_attr2": "object_val210"
+      }
+    },
+    "ot2_0120": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val510",
+        "object_attr2": "object_val342"
+      }
+    },
+    "92": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val202",
+        "object_attr2": "object_val231"
+      }
+    },
+    "ot2_0121": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val639"
+      }
+    },
+    "ot2_0122": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val595",
+        "object_attr2": "object_val364"
+      }
+    },
+    "ot2_0123": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val512"
+      }
+    },
+    "ot1_0121": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val58"
+      }
+    },
+    "ot1_0122": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val842",
+        "object_attr2": "object_val179"
+      }
+    },
+    "93": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val62",
+        "object_attr2": "object_val951"
+      }
+    },
+    "ot1_0123": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val411"
+      }
+    },
+    "ot1_0124": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val601",
+        "object_attr2": "object_val678"
+      }
+    },
+    "ot1_0125": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val973",
+        "object_attr2": "object_val854"
+      }
+    },
+    "ot1_0126": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val751"
+      }
+    },
+    "ot1_0127": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val483",
+        "object_attr2": "object_val883"
+      }
+    },
+    "94": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val406",
+        "object_attr2": "object_val465"
+      }
+    },
+    "ot1_0128": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val115"
+      }
+    },
+    "ot1_0129": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val836",
+        "object_attr2": "object_val274"
+      }
+    },
+    "ot3_0133": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val234",
+        "object_attr2": "object_val882"
+      }
+    },
+    "ot2_0124": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val851",
+        "object_attr2": "object_val13"
+      }
+    },
+    "ot2_0125": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val504",
+        "object_attr2": "object_val586"
+      }
+    },
+    "95": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val530"
+      }
+    },
+    "ot1_0130": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val795"
+      }
+    },
+    "ot1_0131": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val891"
+      }
+    },
+    "ot3_0134": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val156"
+      }
+    },
+    "ot1_0132": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val441"
+      }
+    },
+    "ot3_0135": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val537",
+        "object_attr2": "object_val201"
+      }
+    },
+    "ot3_0136": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val572"
+      }
+    },
+    "96": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val751"
+      }
+    },
+    "ot1_0133": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val843"
+      }
+    },
+    "ot1_0134": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val741",
+        "object_attr2": "object_val318"
+      }
+    },
+    "ot2_0126": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val107"
+      }
+    },
+    "ot1_0135": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val758"
+      }
+    },
+    "ot3_0137": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val983",
+        "object_attr2": "object_val781"
+      }
+    },
+    "ot3_0138": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val844",
+        "object_attr2": "object_val467"
+      }
+    },
+    "97": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val376"
+      }
+    },
+    "ot3_0139": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val884"
+      }
+    },
+    "ot2_0127": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val63",
+        "object_attr2": "object_val336"
+      }
+    },
+    "ot2_0128": {
+      "ocel:type": "ot2",
+      "ocel:ovmap": {
+        "object_attr1": "object_val353"
+      }
+    },
+    "ot1_0136": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val494"
+      }
+    },
+    "ot1_0137": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val234",
+        "object_attr2": "object_val867"
+      }
+    },
+    "ot1_0138": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val225"
+      }
+    },
+    "98": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val558"
+      }
+    },
+    "ot1_0139": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val613",
+        "object_attr2": "object_val39"
+      }
+    },
+    "ot1_0140": {
+      "ocel:type": "ot1",
+      "ocel:ovmap": {
+        "object_attr1": "object_val772",
+        "object_attr2": "object_val344"
+      }
+    },
+    "99": {
+      "ocel:type": "ProcessCase",
+      "ocel:ovmap": {
+        "object_attr1": "object_val416",
+        "object_attr2": "object_val437"
+      }
+    },
+    "ot3_0140": {
+      "ocel:type": "ot3",
+      "ocel:ovmap": {
+        "object_attr1": "object_val563",
+        "object_attr2": "object_val634"
+      }
+    }
+  }
+}
