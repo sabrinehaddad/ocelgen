@@ -1,7 +1,7 @@
 
 **O**bject-**C**entric **E**vent **L**og **Gen**erator for creating synthetic OCEL logs for benchmarking object-centric process mining methods.
 
-This repository contains the implementation of **OCEL-Gen**, an interactive Python-based tool for generating synthetic event logs in the OCEL 1.0 format. The tool enables configurable generation of process control-flow structures and object interactions, supporting controlled benchmarking of object-centric process mining algorithms.
+This repository contains the implementation of **OCEL-Gen**, an interactive Python-based tool for generating synthetic event logs in the OCEL 1.0 format [[1]](#references). The tool enables configurable generation of process control-flow structures and object interactions, supporting controlled benchmarking of object-centric process mining algorithms.
 
 ---
 
