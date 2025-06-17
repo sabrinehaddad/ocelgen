@@ -81,7 +81,7 @@ python main.py --config config.json
 
 ### Visualizations:
 #### [Fig.  7.1, fig. 7.2 and fig. 7.3 Representativeness](notebooks/representativeness.ipynb)
-This notebook provides a visual comparison between real-world and synthetic OCEL logs. It includes:
+This notebook provides a visual comparison between real-world [[2]](#references) and synthetic OCEL logs. It includes:
 
 PCA Projection with Convex Hulls: Highlights coverage of the feature space via 2D projections.
 
@@ -118,3 +118,7 @@ XES and OCEL generation time across five parameter variations:
 ## Contact
 
 For issues, suggestions, or collaborations, please reach out via GitHub Issues or contact [sabrine.haddad@campus.lmu.de].
+
+## References
+1. OCEL Standard: https://www.ocel-standard.org/1.0/
+2. Real-World OCEL logs are from: https://www.ocel-standard.org/1.0/
